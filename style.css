@@ -66,6 +66,12 @@
     padding: 10px;
 }
 
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
 .logo{
     height: 100%;
     width: 70%;
@@ -115,7 +121,7 @@
 
 .main-menu li{
     float: left;
-    padding: 10px;
+    padding: 9px;
 
 }
 
